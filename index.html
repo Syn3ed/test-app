@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Форма адреса</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Введите адрес</h1>
+        <form id="address-form">
+            <label for="region">Область:</label>
+            <input type="text" id="region" required>
+
+            <label for="city">Город:</label>
+            <input type="text" id="city" required>
+
+            <label for="street">Улица:</label>
+            <input type="text" id="street" required>
+
+            <label for="location">Название ПЗУ:</label>
+            <input type="text" id="location" required>
+
+            <button type="submit" id="save-button" disabled>Сохранить адрес</button>
+        </form>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
